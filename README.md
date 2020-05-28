@@ -2,7 +2,7 @@
 
 This repository contains PyTorch implementations of the training and evaluation experiments from our paper:
 
-**Stochastic Security: Adversarial Defense Using Long-Run Dynamics of Energy-Based Models**<br/>Mitch Hill\*, Jonathan Mitchell\*, and Song-Chun Zhu (*\*equal contributions*)<br/>https://arxiv.org/abs/.
+**Stochastic Security: Adversarial Defense Using Long-Run Dynamics of Energy-Based Models**<br/>Mitch Hill\*, Jonathan Mitchell\*, and Song-Chun Zhu (*\*equal contributions*)<br/>https://arxiv.org/abs/2005.13525.
 
 The file ```bpd_eot_attack.py``` is an implementation of the BPDA+EOT attack to evaluate EBM defense. The files ```train_ebm.py``` and ```train_clf.py``` will train an EBM and classifier network respectively.
 
