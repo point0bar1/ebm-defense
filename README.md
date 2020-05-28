@@ -4,7 +4,7 @@ This repository contains PyTorch implementations of the training and evaluation 
 
 **Stochastic Security: Adversarial Defense Using Long-Run Dynamics of Energy-Based Models**<br/>Mitch Hill\*, Jonathan Mitchell\*, and Song-Chun Zhu (*\*equal contributions*)<br/>https://arxiv.org/abs/2005.13525.
 
-The file ```bpd_eot_attack.py``` is an implementation of the BPDA+EOT attack to evaluate EBM defense. The files ```train_ebm.py``` and ```train_clf.py``` will train an EBM and classifier network respectively.
+The file ```bpda_eot_attack.py``` is an implementation of the BPDA+EOT attack to evaluate EBM defense. The files ```train_ebm.py``` and ```train_clf.py``` will train an EBM and classifier network respectively.
 
 **NOTE:** All config files use the pixel range [0, 255] for adversarial perturbation ```adv_eps``` and attack step size ```adv_eta```. However, all experiments scale images so that the pixels range is  [-1, 1]. Adversarial parameters are scaled accordingly during execution. The Langevin step size ```langevin_eps``` in the config files uses the pixel range [-1, 1].
 
