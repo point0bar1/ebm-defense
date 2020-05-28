@@ -20,7 +20,7 @@ The EBM training procedure in Algorithm 2 of our paper is implemented by ```trai
 
 The file ```train_clf.py``` is a minimal implementation of natural and adversarial training for classifier networks. The folder ```config_train_clf``` has config files for natural and adversarial training for Cifar-10, SVHN, and Cifar-100. Setting the config parameter ```adv_steps_train``` to 0 will lead to natural training, while a positive value will lead to adversarial training.
 
-##Running an Experiment
+## Running an Experiment
 
 To run an experiment with ```bpda_eot_attack.py```, ```train_ebm.py```, ```train_clf.py```, or ```sample.py```, just specify the JSON config file:
 
