@@ -22,7 +22,7 @@ The file ```train_clf.py``` is a minimal implementation of natural and adversari
 
 ## Running an Experiment
 
-To run an experiment with ```bpda_eot_attack.py```, ```train_ebm.py```, ```train_clf.py```, or ```sample.py```, just specify the JSON config file:
+To run an experiment with ```bpda_eot_attack.py```, ```train_ebm.py```, or ```train_clf.py```, just specify the JSON config file:
 
 ```python
 # json file with experiment config
