@@ -10,7 +10,7 @@ The file ```bpda_eot_attack.py``` is an implementation of the BPDA+EOT attack to
 
 ## Attack Code
 
-The BPDA+EOT attack in Algorithm 1 of our paper is implemented by ```bpda_eot_attack.py```. The folder ```config_attack``` has three files for three different attacks. The config ```bpda_eot_attack.json``` is the main attack used against EBM defene in our paper (see Section 4.2). The config ```clf_nat_attack.json``` is set up evaluate the base classifier without purification. The config ```clf_transfer_attack.json``` will create adversarial samples from the base classifier before a final evaluation using EBM purification (see Section 4.1). 
+The BPDA+EOT attack in Algorithm 1 of our paper is implemented by ```bpda_eot_attack.py```. The folder ```config_attack``` has three files for three different attacks. The config ```bpda_eot_attack.json``` is the main attack used against EBM defense in our paper (see Section 4.2). The config ```clf_nat_attack.json``` is set up evaluate the base classifier without purification. The config ```clf_transfer_attack.json``` will create adversarial samples from the base classifier before a final evaluation using EBM purification (see Section 4.1). 
 
 ## EBM Training Code
 
